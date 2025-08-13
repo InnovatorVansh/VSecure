@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Vehicle Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <h1>EV Dashboard</h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#login-signup">Login/SignUp</a></li>
+        <li><a href="#vehicle-condition">Vehicle Condition</a></li>
+        <li><a href="#lock-unlock">Lock/Unlock Control</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Your Electric Vehicle Dashboard</h2>
+      <p>Track, manage, and control your electric vehicle effortlessly.</p>
+      <div class="hero-buttons">
+        <a href="#login-signup" class="btn">Login/SignUp</a>
+        <a href="#vehicle-condition" class="btn">View Vehicle Condition</a>
+        <a href="#lock-unlock" class="btn">Lock/Unlock Control</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/600x400" alt="Electric Vehicle Image">
+    </div>
+  </section>
+
+  <!-- Vehicle Stats Section -->
+  <section id="vehicle-condition" class="page-section">
+    <h2>Vehicle Overview</h2>
+    <div class="vehicle-stats">
+      <div class="stat">
+        <img src="https://via.placeholder.com/100" alt="Model Icon">
+        <p><strong>Model:</strong> Tesla Model 3</p>
+      </div>
+      <div class="stat">
+        <img src="https://via.placeholder.com/100" alt="Distance Icon">
+        <p><strong>Total Distance:</strong> 120,000 km</p>
+      </div>
+      <div class="stat">
+        <img src="https://via.placeholder.com/100" alt="Service Icon">
+        <p><strong>Last Service:</strong> January 2024</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lock/Unlock Control Section -->
+  <section id="lock-unlock" class="page-section">
+    <h2>Lock/Unlock Control</h2>
+    <div class="controls">
+      <p id="status-text">Vehicle is Locked</p>
+      <button id="lock-btn" class="lock-btn">Lock Vehicle</button>
+      <button id="unlock-btn" class="unlock-btn">Unlock Vehicle</button>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Electric Vehicle Dashboard. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

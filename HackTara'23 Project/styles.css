@@ -1,0 +1,191 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .navbar .logo h1 {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #5ba4fd, #00eeff);
+    color: white;
+    padding: 0 50px;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .hero-buttons .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-buttons .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Vehicle Stats Section */
+  .page-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .vehicle-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .stat {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .stat img {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .stat p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Lock/Unlock Section */
+  .controls {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #status-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lock-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .lock-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .unlock-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .unlock-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
